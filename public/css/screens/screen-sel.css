@@ -1,0 +1,273 @@
+.screen-sel{
+    display: none;
+    position: absolute;
+    top: 10px;
+    bottom: 85px;
+    width: 325px;
+    left: 0; right: 0;
+    margin: auto;
+    padding: 5px 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.screen-sel-btn-all{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    /* display: flex; */
+    /* background-color: aliceblue; */
+
+}
+.screen-sel-btn-transfer{
+    position: relative;
+    padding: 15px 0px;
+    background-color: #f07e2d;
+    width: 235px;
+    left: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.screen-sel-btn-sel{
+    position: absolute;
+    background-color: #f07e2d;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/assets/img/transfer-icon.svg);
+    background-size: 24px;
+    background-position-x: 13px;
+    z-index: 1000;
+    
+}
+
+.screen-sel-btn-transfer_block-txt{
+    position: relative;
+    /* top: 15px; */
+    width: 273px;
+    margin: 0px auto 5px;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.screen-sel-btn-transfer_block input {
+    position: relative;
+    margin: 7px auto;
+    border: 2px solid black;
+    width: 281px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.screen-sel-btn-transfer_block input::placeholder {
+    color: white;
+    font-size: 17px;
+}
+
+.screen-sel-btn-transfer_block{
+    display: none;
+    opacity: 0;
+    margin-top: 20px;
+    z-index: 1000;
+}
+
+.sub{
+    background-color: rgb(0, 231, 0);
+    color: black;
+    padding: 15px 8px;
+    text-align: center;
+}
+
+
+.screen-sel-btn-transfer-btn{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.screen-sel-btn-sel-btn{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.screen-sel-sel-block{
+    position: relative;
+    width: 296px;
+    height: 600px;
+    border: 2px solid #f07e2d;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+
+.screen-sel-btn-sel-block{
+    display: none;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.screen-sel-btn-sel-block-txt{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin: 0px 0px 20px;
+}
+
+.screen-sel-btn-sel-block input{
+    position: relative;
+    /* margin: 20px auto 10px; */
+    border: 2px solid black;
+    width: 281px;
+    height: 29px;
+    border-radius: 10px;
+    text-align: center;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    margin: 0px 5.5px 10px;
+}
+
+.screen-sel-btn-sel-block input::placeholder {
+    color: white;
+}
+
+.screen-sel-btn-sel-block-state{
+    position: relative;
+    width: 285px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.screen-sel-sel-block-sel-transfer{
+    position: relative;
+    width: 296px;
+    height: 50px;
+    display: flex;
+}
+
+.screen-sel-sel-block-sel-transfe-st{
+    position: relative;
+    width: calc(296px / 2);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3px 0px;
+}
+
+.st-transfe{
+    background-image: url(/assets/img/shop-icon.svg);
+    background-size: 24px;
+    border-bottom: 2px solid #f07e2d;
+}
+
+.st-sel{
+    background-image: url(/assets/img/transfer-icon.svg);
+    background-size: 24px;
+}
+
+
+.screen-sel-sel-block-sssb{
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    /* border: 1px solid white; */
+    width: 293px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.sssb-sel{
+    display: block;
+}
+
+
+.sssb-transfe{
+    display: none;
+}
+
+
+.screen-sel-sel-block-sssb-card{
+    position: relative;
+    width: 280px;
+    margin: auto;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.screen-sel-sel-block-sssb-card img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 5px;
+    top: 1.5px;
+    border-radius: 5px;
+}
+
+.screen-sel-sel-block-sssb-card-nic{
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    left: 50px;
+    top: 2px;
+}
+
+.screen-sel-sel-block-sssb-card-money-curs{
+    position: absolute;
+    width: fit-content;
+    height: 13px;
+    left: 50px;
+    top: 23px;
+    display: flex;
+}
+
+.screen-sel-sel-block-sssb-card-money-curs-mc{
+    position: relative;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.nt{
+    top: 12px;
+}
