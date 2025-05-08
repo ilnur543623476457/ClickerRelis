@@ -1,0 +1,229 @@
+.screen-lat-one{
+    display: none;
+    position: absolute;
+    top: 10px;
+    bottom: 85px;
+    width: 325px;
+    left: 0; right: 0;
+    margin: auto;
+    padding: 5px 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.screen-lat-one-txt {
+    position: relative;
+    width: fit-content;
+    padding: 10px;
+    font-family: 'GTA-font';
+    color: #ffffff;
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-weight: 500;
+    top: -10px;
+    left: -10px;
+}
+
+.screen-lat-one-off{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 10px;
+    background-image: url('/assets/img/close-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.screen-lat-one-menu{
+    position: relative;
+    width: 325px;
+    height: 40px;
+    display: flex;
+}
+
+.screen-lat-one-menu-slo{
+    position: relative;
+    width: calc(325px / 2);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slo-game{
+    background-image: url('/assets/img/game-icon.svg');
+    background-color: 30px;
+    border-bottom: 2px solid #f07e2d;
+}
+
+.slo-winer{
+    background-image: url('/assets/img/win-icon.svg');
+    background-size: 30px;
+}
+
+.screen-lat-one-sum-coin{
+    position: relative;
+    top: 10px;
+    width: 320px;
+    margin: 10px auto;
+    height: 20px;
+}
+
+.screen-lat-one-sum-coin-txt{
+    position: absolute;
+    left: 10px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.screen-lat-one-sum-coin input{
+    position: absolute;
+    right: 10px;
+    width: 80px;
+    top: -3px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #f07e2d;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    outline: none;
+    font-size: 20px;
+}
+.screen-lat-one-btn{
+    position: relative;
+    top: 20px;
+    margin: 10px auto;
+    width: 300px;
+    padding: 10px 0px;
+    background-color: #f07e2d;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.screen-lat-one-sum-coin-txt2{
+    position: absolute;
+    right: 10px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    top: 2px;
+}
+
+
+.screen-lat-one-info{
+    position: relative;
+    top: 15px;
+    padding: 10px 0px;
+}
+
+.screen-lat-one-sum-coin-i{
+    position: relative;
+    top: -5px;
+    width: 320px;
+    margin: 10px auto;
+    height: 20px;
+}
+
+.screen-lat-one-people{
+    position: absolute;
+    width: 311px;
+    left: 0; right: 0;
+    margin: auto;
+    top: 310px;
+    bottom: 0;
+    /* border: 1px solid white; */
+    padding: 0px 0px 5px 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.screen-lat-one-people_gamer{
+    position: relative;
+    width: 320px;
+    margin: 5px auto;
+    height: 40px;
+
+}
+
+.screen-lat-one-people_gamer-img{
+    position: absolute;
+    left: 5px;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://t.me/i/userpic/320/4nQet4TE4XmUYK8i1h2buP17yp8y2DMoVj48jttds_8.svg);
+    background-size: 40px;
+    border-radius: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.screen-lat-one-people_gamer-name{
+    position: absolute;
+    left: 50px;
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    top: 3px;
+}
+
+.screen-lat-one-people_gamer-stavca{
+    position: absolute;
+    width: fit-content;
+    top: 22px;
+    left: 50px;
+    display: flex;
+}
+
+.screen-lat-one-people_gamer-stavca-sum{
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.screen-lat-one-people_gamer-stavca-coin{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/assets/img/coin.svg);
+    background-size: 12px;
+    top: -1px;
+    margin-left: 2px;
+}
+
+.win-anim{
+    display: none;
+    position: absolute;
+    width: 300px;
+    left: 0; right: 0;
+    margin: auto;
+    height: 400px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.screen-lat-one-top-block{
+    display: none;
+    position: absolute;
+    width: 325px;
+    bottom: -1px;
+    top: 105px;
+    background-color: #292929;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+

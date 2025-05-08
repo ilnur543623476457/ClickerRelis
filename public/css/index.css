@@ -1,0 +1,40 @@
+
+
+@import url('./screens/screen-one.css');
+@import url('./screens/screen-two.css');
+@import url('./screens/screen-three.css');
+@import url('./screens/screen-lat-one.css');
+@import url('./screens/screen-lat-all.css');
+@import url('./screens/screen-ref.css');
+@import url('./screens/screen-sel.css');
+
+@import url('./screens/screen-hello.css');
+@import url('./screens/screen-ban.css');
+@import url('./screens/screen-loader.css');
+
+@import url('./navigation-bar.css');
+
+
+@import url('./screen-panel.css');
+
+
+
+@font-face {
+    font-family: "GTA-font";
+    src: url("./../assets/font/GTA Russian.ttf");
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0 0 0 / 84%);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url(/assets/img/fone-img.svg);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}

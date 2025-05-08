@@ -1,0 +1,35 @@
+.navigation-bar{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #f07d2b;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+}
+
+.navigation-bar-btn{
+    position: relative;
+    width: calc(270px / 3);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#shop-page{
+    background-image: url('/assets/img/shop-icon.svg');
+    background-size: 35px;
+}
+
+#home-page{
+    background-image: url('/assets/img/coin.svg');
+    background-size: 50px;
+}
+
+#account-page{
+    background-image: url('/assets/img/account-icon.svg');
+    background-size: 35px;
+}
