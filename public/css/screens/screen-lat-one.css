@@ -219,10 +219,11 @@
 .screen-lat-one-top-block{
     display: none;
     position: absolute;
-    width: 325px;
+    width: 322px;
     bottom: -1px;
-    top: 105px;
-    background-color: #292929;
+    top: 96px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     overflow-x: hidden;
     overflow-y: auto;
 }
